@@ -1,0 +1,3 @@
+Aula 1 - 
+
+Superset - tudo de js é usado no ts, mas com tipagem estatica e outros recursos que tornam o código menos sujeito a bugs 
