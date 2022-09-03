@@ -74,3 +74,15 @@ T - type
 A array vem por padrão como any, é preciso então tipá-lo
 
 O tipo readOnly array deixa somente ler a lista, sem deixar modificá-la
+
+
+Aula 5 -
+
+Se no construtor é definido o private nos parâmetros, é feita por baixo dos panos a atribuição
+
+Um atalho para escrever menos em arrays é:
+
+negociacao[] é a mesma coisa que Array<negociacao>
+
+Programação defensiva - um exemplo é evitar que quando se chama um método ou getter da classe, se tenha acesso à referência de algo que não deve ser modificado, para isso é feito uma clonagem da data por exemplo, para que a cópia seja modificada e não a data em si
+
