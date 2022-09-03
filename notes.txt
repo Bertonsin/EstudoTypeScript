@@ -65,3 +65,12 @@ Para constuir uma expressão regular se usa /valor entre/g para global
 É uma boa prática tipar os retornos dos métodos, nao tipa o construtor, e também é bom evitar o tipo any
 
 Parametro de método, parametro de construtor, retorno de método e propriedade de classe é bom tipar
+
+
+Aula 4 -
+
+T - type
+
+A array vem por padrão como any, é preciso então tipá-lo
+
+O tipo readOnly array deixa somente ler a lista, sem deixar modificá-la
