@@ -15,3 +15,30 @@ Modelo é algo que se aproxima da vida real
 Com o js só é possível verificar se o código possui um erro na execução e isso é ruim
 
 O typeScript é um superset do ecmascript, ou seja, possui tudo que tem no js, mas com recursos que permitem o reconhecimento de erro antes da execução
+
+
+Aula 2 -
+
+Navegador não entende typeScript assim, é preciso haver uma compilação
+
+instalar o typeScript - npm install typescript@4.2.2 --save-dev
+
+Todo o código escrito em ts vai ser escrito na pasta app
+
+Quando o código estiver pronto ele vai ser transformado em js
+
+É preciso configurar o compilador de typeScript
+
+Crie o tsconfig.json para configurar
+
+E os arquivos irão automaticamente para a pasta dist
+
+Correções são feitas no arquivo ts
+
+Typescript - ideia de tipos é muito importante
+
+Private deixa o items privado e só pode ser acessado dentro da classe
+
+Garante que ninguém pode modificar durante a compilação do código, durante o runtime, mas não impede de modificarem depois, no console do navegador
+
+Quando não declara o tipo do item, ele é public, mas pode ser omitido isso
