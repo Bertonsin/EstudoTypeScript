@@ -1,3 +1,17 @@
 Aula 1 - 
 
 Superset - tudo de js é usado no ts, mas com tipagem estatica e outros recursos que tornam o código menos sujeito a bugs 
+
+pasta dist - distribuition, pasta compartilhada com o navegador
+
+npm run server irá abrir um servidor que será atualizado de acordo com as mudanças automaticamente
+
+Sistemas de modulos nativos - se usa um módulo e os outros necessários o navegador baixa automaticamente, removendo a necessidade de colocar vários scripts e ter que lembrar a ordem de dependência deles
+
+A tag module indica que o arquivo deve ser tratado como módulo e não script
+
+Modelo é algo que se aproxima da vida real  
+
+Com o js só é possível verificar se o código possui um erro na execução e isso é ruim
+
+O typeScript é um superset do ecmascript, ou seja, possui tudo que tem no js, mas com recursos que permitem o reconhecimento de erro antes da execução
