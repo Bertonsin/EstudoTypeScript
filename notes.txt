@@ -42,3 +42,26 @@ Private deixa o items privado e só pode ser acessado dentro da classe
 Garante que ninguém pode modificar durante a compilação do código, durante o runtime, mas não impede de modificarem depois, no console do navegador
 
 Quando não declara o tipo do item, ele é public, mas pode ser omitido isso
+
+
+Aula 3 - 
+
+Controller - classe que ira controlar a interação do form, vai ser a ponte entre as interações do usuário na página e a criação de modelos
+
+No typescript é preciso colocar os tipos das classes
+
+configure o noImplicityany quando começar um novo projeto
+
+coloca depois o tipo, com dois pontos
+
+Evitar o tipo any, pois pode ser qualquer coisa, e assim não terá nenhuma sugestão do que fazer com o valor
+
+O typeScript ja vem com os tipos padrões da linguagem javascript
+
+O typeScript também vem com tipos para elementos do DOM
+
+Para constuir uma expressão regular se usa /valor entre/g para global
+
+É uma boa prática tipar os retornos dos métodos, nao tipa o construtor, e também é bom evitar o tipo any
+
+Parametro de método, parametro de construtor, retorno de método e propriedade de classe é bom tipar
